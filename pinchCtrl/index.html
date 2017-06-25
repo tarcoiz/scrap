@@ -1,0 +1,30 @@
+<!doctype html>
+<html class="no-js" lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Mouse/Touch test</title>
+<meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="hitarea">TOUCH ME</div>
+<div id="eventname">-</div>
+<div id="coords">X:<span id="x"></span> Y:<span id="y"></span></div>
+<div id="coords_2">X:<span id="x_2"></span> Y:<span id="y_2"></span></div>
+
+<section id="b">
+
+<div id="image-area" style="margin: 10px;">
+  <img src="notice.png" />
+</div>
+
+
+  <input type="hidden" name="org-width" id="org-width" value="" />
+  <input type="hidden" name="org-height" id="org-height" value="" />
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
